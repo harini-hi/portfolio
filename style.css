@@ -1,0 +1,148 @@
+
+main{
+    width: 65%;
+    margin-left: 16%;
+}
+h4{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
+.container1{
+    background-color: rgb(252, 114, 160);
+    height: 60vh;  
+    border-radius: 40px; 
+    margin-top: 40px;
+}
+.layout1 i {
+    margin-top: 20%;
+    margin-left: 47%;
+    color: white;
+    width: 10%;
+}
+.layout1 h4{
+    margin-left: 43%;
+    color: white;
+    
+}
+.second{
+    display: flex;
+    
+}
+.container2{
+    background-color: rgb(40, 169, 192);
+    height: 60vh;  
+    border-radius: 40px; 
+    margin-top: 30px;
+}
+.layout2{
+    width: 45%;
+}
+.layout2 i {
+    margin-top: 35%;
+    margin-left: 50%;
+    color: white;
+   
+}
+.layout2 h4{
+    margin-left: 43%;
+    color: white;
+}
+.layout3{
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 28px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.layout4 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    justify-content: end;
+    color: rgb(40, 169, 192);
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+.items{
+    color: rgb(252, 114, 160);
+}
+.layout5{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    margin-top: 20px;
+    width: 20%;
+}
+.layout5 img{
+    width: 195px;
+    height: 180px;
+    gap: 20px;
+    border-radius: 20px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.layout6{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    background-color: rgb(132, 175, 204);
+    height: 58vh;  
+    border-radius: 40px; 
+    margin-top: 30px;
+    
+}
+.line{
+    border: solid 1px white;
+    width: 250px;
+}
+.box1,
+.box2{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+    line-height: 28px;
+    font-family: "Roboto", sans-serif;
+}
+.line3{
+    margin-top: 50px;
+}
+.send{
+    text-align: end;
+}
+.box3{
+    margin-top: 120px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.box3 i{
+    margin-left: 30px;
+}
+
+.fa-facebook {
+    background: white;
+    color: rgb(132, 175, 204);
+    padding: 10px;
+    margin-top: 30px;
+   gap: 10px;
+    
+  }
+  
+.fa-twitter {
+    background: white;
+    color:rgb(132, 175, 204);
+    padding: 10px;
+    gap: 10px;
+  }
+.fa-instagram {
+    background: white;
+    color: rgb(132, 175, 204);
+    padding: 10px;
+    gap: 10px;
+  }
+footer{
+    color: rgb(150, 148, 148);
+    text-align: center;
+    margin: 50px 0;
+    font-family: "Roboto", sans-serif;
+}
